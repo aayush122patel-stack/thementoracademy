@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Mail, Instagram, Facebook, Github } from 'lucide-react';
+import { MapPin, Phone, Mail, Instagram, Facebook } from 'lucide-react';
 import { Button } from './Button';
 
 export const ContactSection: React.FC = () => {
@@ -75,15 +75,6 @@ export const ContactSection: React.FC = () => {
                   aria-label="Facebook"
                 >
                   <Facebook size={24} />
-                </a>
-                <a 
-                  href="https://github.com/aayush122patel-stack/thementoracademy" 
-                  target="_blank" 
-                  rel="noreferrer"
-                  className="bg-white/10 p-3 rounded-full hover:bg-gray-700 transition-colors"
-                  aria-label="GitHub"
-                >
-                  <Github size={24} />
                 </a>
               </div>
             </div>
